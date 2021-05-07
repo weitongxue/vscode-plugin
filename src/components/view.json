@@ -1,0 +1,13 @@
+{
+  "View组件": {
+    "prefix": "View",
+    "body": [
+        "<View>",
+          "\t<Text>",
+            "\t\t威同学","${2}",
+          "\t<Text>",
+        "</View>"
+    ],
+    "description": "View组件"
+  }
+}
