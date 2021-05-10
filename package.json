@@ -10,44 +10,9 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:yunbanfang-vscode-auto.helloWorld"
+		"onLanguage:vue"
 	],
 	"main": "./dist/extension.js",
-	"contributes": {
-		"commands": [
-			{
-				"command": "yunbanfang-vscode-auto.helloWorld",
-				"title": "Hello World"
-			}
-		],
-		"snippets": [
-			{
-				"language": "lizard",
-				"path": "./src/components/view.json"
-			}
-		],
-		"languages": [
-			{
-				"id": "lizard",
-				"aliases": [
-					"lizard",
-					"lizard"
-				],
-				"extensions": [
-					".vue",
-					".json"
-				],
-				"configuration": "./language-configuration.json"
-			}
-		],
-		"grammars": [
-			{
-				"language": "lizard",
-				"scopeName": "source.lizard",
-				"path": "./syntaxes/lizard.tmLanguage.json"
-			}
-		]
-	},
 	"scripts": {
 		"vscode:prepublish": "npm run package",
 		"compile": "webpack",
