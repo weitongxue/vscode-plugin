@@ -1,4 +1,4 @@
-# yunbanfang-vscode-auto
+# weitongxue-vscode-auto
 
 # 一个自定义的Vscode插件
 

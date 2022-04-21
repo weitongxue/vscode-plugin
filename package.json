@@ -1,6 +1,6 @@
 {
-	"name": "yunbanfang-vscode-auto",
-	"displayName": "yunbanfang-vscode-auto",
+	"name": "weitongxue-vscode-auto",
+	"displayName": "weitongxue-vscode-auto",
 	"description": "一个自定义的vscode插件",
 	"version": "0.0.1",
 	"engines": {
